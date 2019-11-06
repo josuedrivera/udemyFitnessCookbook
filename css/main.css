@@ -1,0 +1,90 @@
+body {
+    font-family: helvetica, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+div {
+    position: relative;
+    height: 200px;
+    background: url();
+    background-size: cover;
+    margin: 10px 0;
+    border-radius: 12px;
+}
+
+h1 {
+    font-family: 'Baloo Bhaina', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+
+.first {
+    background: url("http://zavrel.net/amuse.jpg");
+}
+
+.second {
+    background: url("http://zavrel.net/pasta.jpg");
+}
+
+.third {
+    background: url("http://zavrel.net/salmon.jpg");
+}
+
+p {
+    color: white;
+    background-color: black;
+    background: linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4));
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4));
+    background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4));
+    background: -o-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4));
+    padding: 10px;
+    text-align: justify;
+    line-height: 28px;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    text-height: 30px;
+}
+
+small {
+    opacity: 0;
+}
+
+.show-description p {
+    height: 150px;
+}
+
+.show-description small {
+    opacity: 1;
+}
+
+.price {
+    float: right;
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 50px;
+        line-height: 50px;
+        margin-top: 20px;
+    }
+    h2 {
+        font-size: 20px;
+        margin: 20px 0 30px 0;
+    }
+    div {
+        margin: 20px 12px 0 12px;
+    }
+    p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    small {
+        font-size: 16px;
+    }
+}
